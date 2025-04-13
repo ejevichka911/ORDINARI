@@ -1,0 +1,162 @@
+<style>
+    * {
+      box-sizing: border-box; /* Учитывать отступы и границы в ширине */
+    }
+    
+    .shap-mon-bottom {
+  display: flex;
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.shap-mon-left {
+  width: 43%;
+  margin: 10px 10px 30px 30px; /* Исправлено на px */
+}
+
+.shap-mon-left-image {
+  display: flex;
+  justify-content: center;
+}
+
+.shap-mon-right {
+    flex: 1; /* Это позволяет правой части занимать оставшееся пространство */
+    margin: 10px 30px 30px 10px; /* Исправлено на px */
+    display: flex; /* Добавляем flex для выравнивания дочерних элементов */
+}
+
+.shap-mon-right-info {
+    width: 50%; /* Устанавливаем ширину 50% */
+    margin: 0; /* Убираем отступы, если они не нужны */
+    box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+}
+
+.info-zag {
+  font-size: 30px;  
+}
+
+.shap-mon-top {
+  height: 10%;
+  width: 100%;
+}
+
+.info-article {
+  color: #808080; 
+  margin: 10px 0; /* Исправлено на px */
+}
+
+.info-price {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0; /* Исправлено на px */
+}
+
+.shap-mon-button-bottom {
+  cursor: pointer;
+  border: none;
+  background-color: #ebebeb;
+  font-size: 30px;
+  width: 60%;
+  height: 60px;
+}
+
+.favorite {
+  border: none;
+  background-color: #f7f7f7; /* Исправлено на # */
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 0 20px; /* Исправлено на px */
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+  margin: 40px 0; /* Исправлено на px */
+}
+
+.description-title {
+  display: flex; /* Используем flexbox для выравнивания */
+  justify-content: space-between; /* Разделяем пространство между текстом и изображением */
+  align-items: center; /* Центрируем по вертикали */
+  cursor: pointer; /* Указываем, что заголовок кликабельный */
+  margin-top: 20px;
+  font-size: 24px; /* Размер шрифта для заголовка описания */
+  font-weight: bold; /* Жирный шрифт */
+  margin-top: 20px; /* Отступ сверху для заголовка */
+}
+
+.full-description {
+  font-size: 20px; /* Размер шрифта для полного описания */
+  color: #333; /* Цвет текста для полного описания */
+}
+
+.separator {
+    height: 1px; /* Высота линии */
+    background-color: #000; /* Цвет линии (черный) */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.characteristics-title {
+  display: flex; /* Используем flexbox для выравнивания */
+    justify-content: space-between; /* Разделяем пространство между текстом и изображением */
+    align-items: center; /* Центрируем по вертикали */
+    cursor: pointer; /* Указываем, что заголовок кликабельный */
+    margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.characteristics {
+  font-size: 20px;
+  color: #333;
+}
+
+.hidden {
+    display: none; /* Скрываем элементы с классом hidden */
+}
+
+.slide-down {
+    max-height: 0; /* Начальная высота */
+    overflow: hidden; /* Скрываем переполнение */
+    transition: max-height 0.3s ease-in-out; /* Плавный переход для высоты и непрозрачности */
+}
+
+.slide-down.show {
+    max-height: 1000px; /* Максимальная высота (должна быть больше, чем высота содержимого) */
+}
+
+    .toggle-title {
+        cursor: pointer; /* Указываем, что заголовок кликабельный */
+        display: flex; /* Используем flex для выравнивания */
+        align-items: center; /* Центрируем по вертикали */
+    }
+
+    .arrow {
+        width: 30px; /* Ширина изображения */
+        height: 30px; /* Высота изображения */
+        transform: rotate(90deg); /* Поворачиваем изображение на 90 градусов */
+        transition: transform 0.3s; /* Плавный переход при повороте */
+    }
+
+    .rotate {
+        transform: rotate(270deg); /* Поворачиваем изображение на 180 градусов (270 от начального) */
+    }
+
+.button-clicked {
+    transform: scale(0.9); /* Уменьшаем кнопку до 90% от оригинального размера */
+    transition: transform 0.2s ease; /* Плавный переход */
+}
+
+.add-to-cart {
+    padding: 10px 20px; /* Отступы */
+    transition: transform 0.1s ease, background-color 0.3s ease; /* Плавный переход для анимации */
+}
+
+.add-to-cart:active {
+    transform: scale(0.95); /* Уменьшаем кнопку при нажатии */
+}
+  </style>

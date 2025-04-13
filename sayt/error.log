@@ -1,0 +1,16 @@
+[2025-03-24 12:12:16] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-24 12:14:33] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-24 12:18:30] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-24 12:18:35] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-24 12:19:31] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-24 12:23:58] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-24 12:39:10] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-24 13:11:06] Ошибка: название товара не может быть пустым
+[2025-03-25 12:15:03] Ошибка: название товара не может быть пустым
+[2025-03-25 12:23:08] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-25 12:24:09] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-25 12:24:10] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-25 12:50:10] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-25 12:53:29] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.product_ids' doesn't exist
+[2025-03-25 15:56:29] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a227130_ordina.c' doesn't exist
+[2025-03-27 15:05:54] Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
